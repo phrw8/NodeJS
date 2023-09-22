@@ -10,9 +10,9 @@ var transporter = nodemailer.createTransport({
 
 var mailOptions = {
   from: 'ifcphrw@gmail.com',
-  to: 'ofcsmurilo@gmail.com',
+  to: 'joedio.borges@ifc.edu.br',
   subject: 'Sending Email using Node.js',
-  text: 'vascao!'
+  text: 'Paulo Henrique da Rosa Wernke 2B - nlwb shxz xsyz qbmu'
 };
 
 transporter.sendMail(mailOptions, function(error, info){
